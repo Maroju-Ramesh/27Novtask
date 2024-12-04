@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        .cd{
+            width: 205px;
+            
+        }
+      img {
+        height: 200px;
+        width: 200px;
+      }
+      
+      @media screen and (orientation: landscape) {
+        body {
+          background-color: rgb(0, 0, 0);
+        }
+        .div1 {
+          border: 5px solid rgb(216, 219, 221);
+          padding: 25px;
+          background-color: rgb(12, 12, 12);
+        }
+      }
+      @media screen and (orientation: portrait) {
+        body {
+          background-color: pink;
+        }
+        .div1 {
+          border: 5px solid rgb(33, 39, 48);
+          padding: 25px;
+          background-color: rgb(24, 103, 122);
+        }
+      }
+      .div1 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 10px;
+      }
+      ::-webkit-scrollbar{
+        display: none;
+      }
+      .p {
+        background-color: rgb(65, 61, 61);
+        text-align: center;
+        color: white;
+      }
+      @media screen and (min-width: 0px) and (max-width: 475px) {
+        .div1 {
+          display: flex;
+          justify-content: center;
+        }
+      }
+      .div1 div {
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="div1">
+        
+      <div class="cd">
+        <div>
+          <img
+            class="gc"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnFhuGcxN8XKr3JaGo32bkWtCQKMe6Z5K2sQ&s"
+            alt=""
+          />
+        </div>
+        <div style="height: 80px;overflow-y: scroll;background-color: rgb(255, 255, 255);">
+            <p  style="text-align: center; ">Shershaah is a 2021 Hindi-language biographical war film about the life of Captain Vikram Batra, an Indian soldier who was posthumously awarded the Param Vir Chakra for his actions in the 1999 Kargil War.</p>
+        </div>
+        <div class="p"><p>SHERSHAAH</p></div>
+      </div>
+      <div class="cd">
+        <div>
+          <img
+            class="og"
+            src="https://images.filmibeat.com/img/popcorn/movie_posters/og---original-gangsters-20230904105927-21436.jpg"
+            alt=""
+          />
+        </div>
+        <div style="height: 80px;overflow-y: scroll;background-color: white;">
+            <p style="text-align: center;">This Indian action drama film is about a mob boss named Ojas Gambheera "OG" who returns to Mumbai after disappearing for a decade to seek revenge on rival crime lords. The film stars Pawan Kalyan as Ojas Gambheera, Emraan Hashmi, Prakash Raj, and others. It was written and directed by Sujeeth. 
+                OG.</p>
+        </div>
+        <div class="p">
+          <p>OG</p>
+        </div>
+      </div>
+      <div class="cd">
+        <div >
+          <img
+            class="p2"
+            src="https://m.media-amazon.com/images/M/MV5BZjJmMjJmYWMtNTQyYy00NzcxLWE5N2EtMTY5NjRhMGZmYjNlXkEyXkFqcGc@._V1_.jpg"
+            alt=""
+          />
+        </div>
+        <div style="height: 80px;overflow-y: scroll;background-color: white;">
+            <p  style="text-align: center;">Directed by Sukumar, this sequel intensifies the saga of a labourer turned smuggling kingpin, portrayed by National Award winner Allu Arjun. Rashmika Mandanna reprises her role as Srivalli, and Fahadh Faasil returns as the menacing Bhanwar Singh Shekhawat. The film promises gripping action and deepened conflicts.</p>
+        </div>
+        <div class="p">
+          <p>PUSHPA-2</p>
+        </div>
+      </div>
+      <div class="cd">
+        <div>
+          <img
+            class="gc"
+            src="https://c.ndtvimg.com/2021-07/40e90mr8_shershaah-trailer_625x300_25_July_21.jpg?downsize=773:435"
+            alt=""
+          />
+        </div>
+        <div style="height: 80px;overflow-y: scroll;background-color: rgb(255, 255, 255);">
+            <p  style="text-align: center; ">Shershaah is a 2021 Hindi-language biographical war film about the life of Captain Vikram Batra, an Indian soldier who was posthumously awarded the Param Vir Chakra for his actions in the 1999 Kargil War.</p>
+        </div>
+        <div class="p"><p>SHERSHAAH</p></div>
+      </div>
+    
+    </div>
+  </body>
+</html>
